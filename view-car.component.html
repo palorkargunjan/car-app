@@ -1,0 +1,16 @@
+
+<ul>
+        <li *ngFor = "let car of cars">
+          <span>Id: </span>{{car.id}}
+          <span>Make:</span>{{car.make}}
+          <span>Model:</span>{{car.model}}
+          <span>Year:</span>{{car.year}}
+          <span>Value:</span>{{car.value}}
+          <span>Mileage:</span>{{car.mileage}}
+          <span>Transmission:</span>{{car.transmission}}
+          <span>Color:</span>{{car.color}}
+          <button (click)="delete(car); $event.stopPropagation()">Delete Car</button>
+        </li>
+      </ul>
+      
+      
