@@ -1,0 +1,11 @@
+<h2>Add Car</h2>
+<div><label>Id:</label><input type="text" [(ngModel)]= "carToAdd.id"> </div>
+<div><label>Make:</label><input type="text" [(ngModel)]= "carToAdd.make"> </div>
+<div><label>Model:</label><input type="text" [(ngModel)]= "carToAdd.model"> </div>
+<div><label>Year:</label><input type="text" [(ngModel)]= "carToAdd.year"> </div>
+<div><label>Value:</label><input type="text" [(ngModel)]= "carToAdd.value"> </div>
+<div><label>Mileage:</label><input type="text" [(ngModel)]= "carToAdd.mileage"> </div>
+<div><label>Transmission:</label><input type="text" [(ngModel)]= "carToAdd.transmission"> </div>
+<div><label>Color:</label><input type="text" [(ngModel)]= "carToAdd.color"> </div>
+
+<div><input type="button" value="Add Car" (click) = "addCar()"></div>
